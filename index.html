@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Administrasi Sistem Jaringan XII TKJ A</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1b2838; /* Steam dark background */
+      color: #c7d5e0;
+    }
+
+    header {
+      background-color: #171a21;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #66c0f4;
+    }
+
+    header h1 {
+      color: #66c0f4;
+      margin: 0;
+      font-size: 28px;
+    }
+
+    header p {
+      color: #c7d5e0;
+      margin: 5px 0 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #2a475e;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(102, 192, 244, 0.3);
+    }
+
+    h2 {
+      color: #66c0f4;
+      border-bottom: 1px solid #66c0f4;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    p, li {
+      color: #c7d5e0;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 10px 0;
+      border: 2px solid #66c0f4;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .profile img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #66c0f4;
+    }
+
+    .rangkuman {
+      background-color: #1b2838;
+      border-left: 4px solid #66c0f4;
+      padding: 15px;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #171a21;
+      color: #66c0f4;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 15px;
+      }
+
+      .profile {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .profile img {
+        width: 120px;
+        height: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Administrasi Sistem Jaringan XII TKJ A</h1>
+    <p>Website Profil & Materi Pembelajaran</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Identitas Diri -->
+    <section id="identitas">
+      <h2>Identitas Diri</h2>
+      <div class="profile">
+        <!-- Ganti src dengan link gambar kamu atau file lokal -->
+        <img src="kucing.jpg" alt="Foto Profil">
+        <div>
+          <p><strong>Nama:</strong> windra budi liansyah</p>
+          <p><strong>Kelas:</strong> XII TKJ A</p>
+          <p><strong>Sekolah:</strong> SMK 3 perguruan cikini</p>
+         <p><strong>Hobi:</strong>Game</p>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Pengantar Hosting -->
+    <section id="pengantar">
+      <h2>Pengantar Hosting</h2>
+      <p>
+        Hosting adalah layanan penyimpanan data website di server agar dapat diakses melalui internet.
+        Dengan hosting, kamu bisa menampilkan halaman website, aplikasi, dan file lainnya secara online.
+      </p>
+      <img src="pengantar.jpg" alt="Pengantar Hosting">
+      <p>Jenis-jenis hosting:</p>
+      <ul>
+        <li>Shared Hosting</li>
+        <li>VPS (Virtual Private Server)</li>
+        <li>Cloud Hosting</li>
+        <li>Dedicated Hosting</li>
+      </ul>
+      <div class="rangkuman">
+        <strong>Rangkuman:</strong>  
+        Hosting adalah tempat untuk menyimpan file website agar bisa diakses online. Jenis hosting berbeda sesuai kebutuhan.
+      </div>
+    </section>
+
+    <!-- Control Panel Hosting -->
+    <section id="cpanel">
+      <h2>Control Panel Hosting</h2>
+      <p>
+        Control Panel Hosting adalah antarmuka grafis berbasis web yang membantu pengguna mengelola server atau akun hosting.
+        Control panel membuat pengelolaan website lebih mudah, tanpa harus menggunakan terminal atau command line.
+      </p>
+      <img src="control panel.jpg" alt="Control Panel Hosting">
+      <p>Contoh control panel hosting populer:</p>
+      <ul>
+        <li>cPanel</li>
+        <li>DirectAdmin</li>
+        <li>Plesk</li>
+        <li>Webuzo</li>
+      </ul>
+      <p>Fitur umum dalam control panel:</p>
+      <ul>
+        <li>Manajemen File (File Manager)</li>
+        <li>Database (MySQL, phpMyAdmin)</li>
+        <li>Domain & Subdomain</li>
+        <li>Email Hosting</li>
+        <li>Keamanan SSL, Backup & Restore</li>
+      </ul>
+      <div class="rangkuman">
+        <strong>Rangkuman:</strong>  
+        Control Panel Hosting adalah alat penting untuk mengelola akun hosting secara visual, tanpa coding teknis.
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 | XII TKJ A - Administrasi Sistem Jaringan
+  </footer>
+
+</body>
+</html>
